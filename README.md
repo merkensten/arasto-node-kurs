@@ -2,5 +2,5 @@
 
 ## Vart jag är i kursen:
 
-- Video 1 - 5 klart.
-- Video 6 är nästa
+- Video 1 - 11 klart.
+- Video 12 är nästa
