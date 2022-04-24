@@ -23,4 +23,18 @@ const getAllUsers = async (req, res) => {
   }
 };
 
-export default { createUser, getAllUsers };
+const getUserWithId = async (req, res) => {
+  try {
+    const response = await UserModel.findById(req.params.userId);
+    res.status(200).send(response);
+  } catch (error) {
+    res.status(500).send({
+      message:
+        "Error occured while trying to retrive user with id:" +
+        req.params.userId,
+      error: error.message,
+    });
+  }
+};
+
+export default { createUser, getAllUsers, getUserWithId };
