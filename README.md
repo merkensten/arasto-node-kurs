@@ -4,3 +4,6 @@
 
 - Video 1 - 12 klart.
 - Video 13 är nästa
+
+## Mongodb 
+mongod --config /opt/homebrew/etc/mongod.conf
