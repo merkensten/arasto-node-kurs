@@ -2,8 +2,8 @@
 
 ## Vart jag är i kursen:
 
-- Video 1 - 12 klart.
-- Video 13 är nästa
+- Video 1 - 21 klart.
+- Video 22 är nästa
 
 ## Mongodb 
 mongod --config /opt/homebrew/etc/mongod.conf
