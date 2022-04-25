@@ -23,3 +23,5 @@ app.use(middlewares.errorHandler);
 
 Config.connectToDB();
 Config.connectToPort(app);
+
+export default app
